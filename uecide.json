@@ -1,0 +1,26 @@
+{
+    "name": "MIDIUSB",
+    "provides": "MIDIUSB.h",
+    "description": "Allows an Arduino board with USB capabilites to act as a MIDI instrument over USB.",
+    "version": "1.0.3",
+    "maintainer": "Arduino <info@arduino.cc>",
+    "category": "Communications",
+    "subcategory": "Serial",
+    "family": [
+        "avr",
+        "arm-sam",
+        "arm-samd"
+    ],
+    "core": [
+        "arduino",
+        "arduino-sam",
+        "arduino-samd"
+    ],
+    "install": {
+        "examples": "/",
+        "keywords.txt": "/",
+        "library.properties": "/",
+        "src": "/"
+    },
+    "readme": "README.adoc"
+}
